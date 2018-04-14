@@ -1,0 +1,22 @@
+{
+  "name": "progressivewebapp",
+  "version": "1.0.0",
+  "description": "pwa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chkrish9/Progressive-Web-App.git"
+  },
+  "author": "Murali krishna sai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chkrish9/Progressive-Web-App/issues"
+  },
+  "homepage": "https://github.com/chkrish9/Progressive-Web-App#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
