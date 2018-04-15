@@ -1,0 +1,13 @@
+{
+    "name" : "PWA app",
+    "short_name" : "PWA",
+    "start_url" : "/index.html",
+    "scope" : ".",
+    "display" : "standalone",
+    "background_color" : "#fff",
+    "theme_color" : "#3F51B5",
+    "description" : "PWA application",
+    "dir" : "ltr",
+    "lang" : "en-US",
+    "orientation" : "portrait-primary"
+}
