@@ -1,6 +1,24 @@
-body{
-    background-image: url('/src/images/bg.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+body
+{
+    /* background: url('/src/images/bg.jpg') center / cover; */
+    background-color: #ececec;
+}
+.material-icons
+{
+    line-height: 2;
+}
+.mdl-layout__header-row
+.mdl-navigation__link
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button 
+{
+    color: #fff;
+}
+.mdl-layout__header-row
+{
+    background-color: #3f51b5;
+}
+.main-container
+{
+    padding-top: 65px;
 }
