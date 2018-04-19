@@ -22,3 +22,11 @@ body
 {
     padding-top: 65px;
 }
+.width-100-per
+{
+    width: 100%;
+}
+.mdl-layout__drawer-button
+{
+    color: black!important;
+}
