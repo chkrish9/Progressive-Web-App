@@ -30,15 +30,17 @@
     <meta name="theme-color" content="#3F51B5">
 </head>
 <body>
-    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+    <div class="mdl-layout--fixed-header mdl-layout mdl-js-layout">
         <header class="mdl-layout__header mdl-layout__header--transparent">
             <div class="mdl-layout__header-row">
                 <!-- Title -->
-                <span class="mdl-layout-title">PWA</span>
+                <a class="header-title" href="/index.html">
+                    <span class="mdl-layout-title">PWA</span>
+                </a>
                 <!-- Add spacer, to align navigation to the right -->
                 <div class="mdl-layout-spacer"></div>
                 <!-- Navigation -->
-                <nav class="mdl-navigation">
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
                     <a class="mdl-navigation__link" href="/src/pages/Register.html">Register</a>
                     <a class="mdl-navigation__link" href="/src/pages/Login.html">Login</a>
                 </nav>
@@ -49,6 +51,10 @@
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" href="/src/pages/Register.html">MyProfile</a>
                 <a class="mdl-navigation__link" href="/src/pages/Login.html">Help</a>
+                <div class="mdl-layout--small-screen-only">
+                    <a class="mdl-navigation__link" href="/src/pages/Register.html">Register</a>
+                    <a class="mdl-navigation__link" href="/src/pages/Login.html">Login</a>
+                </div>
             </nav>
         </div>
         <main class="mdl-layout__content">
@@ -59,7 +65,7 @@
             <div class="mdl-cell mdl-cell--4-offset mdl-cell--4-col">
                 <div class="demo-card-wide mdl-card mdl-shadow--2dp width-100-per">
                     <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Login</h2>
+                        <h2 class="mdl-card__title-text">Register</h2>
                     </div>
                     <div class="mdl-card__actions mdl-card--border">
                         <form action="#">

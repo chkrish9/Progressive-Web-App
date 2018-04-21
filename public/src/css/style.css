@@ -26,7 +26,7 @@ body
 {
     width: 100%;
 }
-.mdl-layout__drawer-button
-{
-    color: black!important;
+.header-title{
+    color: #fff;
+    text-decoration: none;
 }

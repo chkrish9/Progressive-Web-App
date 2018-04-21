@@ -31,15 +31,17 @@
 </head>
 
 <body>
-    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
-        <header class="mdl-layout__header mdl-layout__header--transparent">
+    <div class="mdl-layout--fixed-header mdl-layout mdl-js-layout">
+        <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
                 <!-- Title -->
-                <span class="mdl-layout-title">PWA</span>
+                <a class="header-title" href="/index.html">
+                    <span class="mdl-layout-title">PWA</span>
+                </a>
                 <!-- Add spacer, to align navigation to the right -->
                 <div class="mdl-layout-spacer"></div>
                 <!-- Navigation -->
-                <nav class="mdl-navigation">
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
                     <a class="mdl-navigation__link" href="/src/pages/Register.html">Register</a>
                     <a class="mdl-navigation__link" href="/src/pages/Login.html">Login</a>
                 </nav>
@@ -50,6 +52,10 @@
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" href="/src/pages/Register.html">MyProfile</a>
                 <a class="mdl-navigation__link" href="/src/pages/Login.html">Help</a>
+                <div class="mdl-layout--small-screen-only">
+                    <a class="mdl-navigation__link" href="/src/pages/Register.html">Register</a>
+                    <a class="mdl-navigation__link" href="/src/pages/Login.html">Login</a>
+                </div>
             </nav>
         </div>
         <main class="mdl-layout__content">
